@@ -1,0 +1,100 @@
+*, *:before, *:after {
+    
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+
+    min-height: 100%;
+    height: 100%;
+    max-height: 100%;
+
+    background-color: #131313;
+}
+
+.container { 
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 68px;
+}
+
+#logo {
+    position: relative;
+    float: left;
+    width: 115px;
+}
+
+.listProfile {
+    position: absolute;
+    width: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.listProfile h1 {
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 100%;
+    color: #ffff;
+    margin-bottom: 50px;
+    font-size: 3.5vw;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: unset;
+}
+
+.escolherPerfil {
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.escolherPerfil li {
+    width: 90%;
+    cursor: pointer;
+}
+
+.escolherPerfil li:last-child {
+    margin: 0;
+}
+
+.profileImg {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.nomeProfile { 
+    position: relative;
+    float: left;
+    width: 100%;
+    color: grey;
+    margin: .6em 0;
+    font-size: 1.3vw;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+
+#gerenciarPerfis {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}

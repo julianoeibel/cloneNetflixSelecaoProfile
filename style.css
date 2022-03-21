@@ -76,9 +76,17 @@ header {
 }
 
 .profileImg {
-    position: relative;
-    float: left;
     width: 100%;
+    position: relative;
+    border: solid 3px transparent;
+}
+
+.profileImg:hover {
+    border: solid 3px #f1f1f1;
+}
+
+.profileImg:hover ~.nomeProfile {
+    color: #f1f1f1;
 }
 
 .nomeProfile { 
